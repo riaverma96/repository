@@ -1,5 +1,4 @@
 package edu.gatech.oad.antlab.person;
-package java.util.Math;
 
 /**
  *  A simple class for person 1
