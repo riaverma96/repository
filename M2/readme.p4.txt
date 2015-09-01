@@ -1,3 +1,3 @@
 Yanglin Huang
 903060522
-yhuang410@gatech.edu
+Extra Credit: Update Product and Sprint Backlog throughout the semester
