@@ -6,6 +6,6 @@ dependencies {
 
 jar {
     manifest {
-        attributes('Main-Class': 'src/antlab/pkg1/AntLabMain.class', 'Class-Path': 'src/antlab/pkg1/*')
+        attributes('Main-Class': 'src.antlab.pkg1.AntLabMain.class', 'Class-Path': 'src.antlab.pkg1/*')
     }
 }
