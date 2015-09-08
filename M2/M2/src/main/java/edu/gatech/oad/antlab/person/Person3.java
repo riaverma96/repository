@@ -49,7 +49,7 @@ public class Person3 {
         int length = input.length();
         String reverse = "";
         for ( int i = length - 1 ; i >= 0 ; i-- )
-            reverse = reverse + original.charAt(i);
+            reverse = reverse + input.charAt(i);
 
         return reverse;
     }
