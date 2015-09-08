@@ -4,4 +4,8 @@ dependencies {
     compile files('lib/resources.jar')
 }
 
-jar { manifest { attributes('Main-Class': 'src/antlab/pkg1/AntLabMain', 'Class-Path': 'src/antlab/pkg1/*') } }
+jar {
+    manifest {
+        attributes('Main-Class': 'src/antlab/pkg1/AntLabMain', 'Class-Path': 'src/antlab/pkg1/*')
+    }
+}
