@@ -37,7 +37,7 @@ public class Person2 {
         String curr;
         String toreturn = "";
         while (i < input.length()) {
-            curr = r.next();
+            curr = input.substring(r.nextInt(), r.nextInt() + 1);
             toreturn += curr;
         }
         return toreturn;
