@@ -1,5 +1,11 @@
 apply plugin: 'java'
 
+jar {
+    manifest {
+        attributes('Main-Class': '', 'Class-Path': '     ')
+    }
+}
+
 dependencies {
     compile files('lib/resources.jar')
 }
