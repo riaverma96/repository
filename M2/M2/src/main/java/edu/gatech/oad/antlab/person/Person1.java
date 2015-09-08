@@ -30,15 +30,16 @@ public class Person1 {
 	 */
 	private String calc(String input) {
 	  //Person 1 put your implementation here
-	    String temp = input;
-		for (int i = 0; i < name.length; i++) {
+	    String temp = "";
+
+		for (int i = 0; i < input.length(); i++) {
             if (i >= 2) {
-                name.charAt(i) = temp.charAt((i-2));
+                temp.concat(input.substring(i-2, i-1));
             } else {
-                name.charAt(i) = temp.charAt((i+1));
+                temp.concat(input.substring(i+1, i+2));
             }
 		}
-		return name;
+		return temp;
 	}
 	
 	/**

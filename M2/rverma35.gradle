@@ -1,5 +1,11 @@
 apply plugin: 'java'
 
+jar {
+    manifest {
+        attributes('Main-Class': 'src/antlab/pkg1/AntLabMain', 'Class-Path': 'src/antlab/pkg1/*')
+    }
+}
+
 dependencies {
     compile files('lib/resources.jar')
 }
