@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcf31df-d440-4a41-8c15-282e19ec32fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/M2/nhofmann3.gradle" afterPath="$PROJECT_DIR$/M2/nhofmann3.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="repository.iws" />
@@ -25,20 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/M2/build/tmp/jar/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.09090909">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nhofmann3.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nhofmann3.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/M2/nhofmann3.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36363637">
+            <state vertical-scroll-proportion="0.0">
               <caret line="8" column="95" selection-start-line="8" selection-start-column="95" selection-end-line="8" selection-end-column="95" />
               <folding />
             </state>
@@ -60,8 +59,8 @@
       <list>
         <option value="$PROJECT_DIR$/M2/M2/src/main/java/edu/gatech/oad/antlab/pkg1/AntLabMain.java" />
         <option value="$PROJECT_DIR$/M2/csalmon3.gradle" />
-        <option value="$PROJECT_DIR$/M2/build/tmp/jar/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/M2/nhofmann3.gradle" />
+        <option value="$PROJECT_DIR$/M2/build/tmp/jar/MANIFEST.MF" />
       </list>
     </option>
   </component>
@@ -512,7 +511,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441751929679</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated build file (nhofmann3)">
+      <created>1441752282272</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1441752282272</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -740,18 +745,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/M2/build/tmp/jar/MANIFEST.MF">
+    <entry file="file://$PROJECT_DIR$/M2/nhofmann3.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="8" column="95" selection-start-line="8" selection-start-column="95" selection-end-line="8" selection-end-column="95" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/M2/nhofmann3.gradle">
+    <entry file="file://$PROJECT_DIR$/M2/build/tmp/jar/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36363637">
-          <caret line="8" column="95" selection-start-line="8" selection-start-column="95" selection-end-line="8" selection-end-column="95" />
+        <state vertical-scroll-proportion="0.09090909">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding />
         </state>
       </provider>
