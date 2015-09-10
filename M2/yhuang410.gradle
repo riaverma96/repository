@@ -1,31 +1,21 @@
+defaultTasks  'jar'
+
 apply plugin: 'java'
 
-sourceCompatibility = 1.5
-
+sourceCompatibility = 1.6
+version = '1.0'
 
 jar {
     manifest {
-        attributes 'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain',
-                'Class-Path': '../../lib/resources.jar'
+        attributes 'Implementation-Title': 'Gradle Quickstart', 'Implementation-Version': version, 'Main-Class':
+                'edu.gatech.oad.antlab.pkg1.AntLabMain', 'Class-Path' : '../../lib/resources.jar'
     }
 }
 
-compileJava {
-    //enable compilation in a separate daemon process
-    options.fork = true
-
-    //enable incremental compilation
-    options.incremental = true
+repositories {
+    mavenCentral()
 }
-
-test {
-    useJUnit {
-        includeCategories 'org.gradle.junit.CategoryA'
-        excludeCategories 'org.gradle.junit.CategoryB'
-    }
-}
-
 
 dependencies {
-    compile files('lib/resources.jar')
+    compile files{'lib/resources.jar'}
 }
