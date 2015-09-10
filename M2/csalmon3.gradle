@@ -5,7 +5,8 @@ sourceCompatibility = 1.5
 
 jar {
     manifest {
-        attributes 'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain', 'Class-Path' : '../../lib/resources.jar'
+        attributes 'Implementation-Title': 'Gradle Quickstart', 'Implementation-Version': version, 'Main-Class':
+                'edu.gatech.oad.antlab.pkg1.AntLabMain', 'Class-Path' : '../../lib/resources.jar'
     }
 }
 
