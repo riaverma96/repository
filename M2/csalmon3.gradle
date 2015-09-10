@@ -5,7 +5,7 @@ sourceCompatibility = 1.5
 
 jar {
     manifest {
-        attributes 'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain', 'Class-Path' : 'lib/resources.jar'
+        attributes 'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain', 'Class-Path' : '../../../lib/resources.jar'
     }
 }
 
