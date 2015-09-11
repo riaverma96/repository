@@ -1,3 +1,6 @@
+defaultTasks 'jar'
+version '1.0-SNAPSHOT'
+
 apply plugin: 'java'
 
 sourceCompatibility = 1.5
@@ -5,8 +8,8 @@ sourceCompatibility = 1.5
 
 jar {
     manifest {
-        attributes 'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain',
-                'Class-Path': '../../lib/resources.jar'
+        attributes 'Implement-Title' : 'Gradle Quickstart', 'Implement-Version' : version,
+                'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain', 'Class-Path': '../../lib/resources.jar'
     }
 }
 
@@ -25,6 +28,17 @@ test {
     }
 }
 
+task javadocs(type: Javadoc) {
+    source = sourceSets.main.allJava
+}
+
+task clean(type: Delete) {
+    delete 'created by built'
+}
+
+repositories {
+    mavenCentral()
+}
 
 dependencies {
     compile files('lib/resources.jar')
