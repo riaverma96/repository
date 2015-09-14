@@ -30,18 +30,15 @@ public class Person2 {
 	 * @param input the string to be modified
 	 * @return the modified string
 	 */
-	private String calc(String input) {
-	        //Person 2 put your implementation here
+
+    private String calc(String input) {
         Random r = new Random();
-        int i = 0;
-        String curr;
-        String toreturn = "";
-        while (i < input.length()) {
-            curr = input.substring(r.nextInt(), r.nextInt() + 1);
-            toreturn += curr;
+        String result = "";
+        for (int i = 0; i < input.length(); i++) {
+            result = result + input.charAt(r.nextInt(input.length()));
         }
-        return toreturn;
-	}
+        return result;
+    }
 	/**
 	 * Return a string rep of this object
 	 * that varies with an input string
